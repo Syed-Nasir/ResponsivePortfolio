@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&family=Source+Serif+Pro:wght@300&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(122, 175, 157);
+    font-family: 'EB Garamond', serif;
+    height: 100vh;
+    transition: trasform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(15, 14, 14);
+
+}
+
+.main{
+   /* background-color: blueviolet;*/
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+
+}
+.infocontainer{
+   /* background-color: rgb(209, 59, 159);*/
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+font-family: 'Source Serif Pro', serif;
+}
+
+.hello{
+    font-size: 75px;
+
+}
+.name{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'EB Garamond', serif;
+}
+.about{
+font-size: 50px;
+}
+.moreabout{
+    font-size: 25px;
+    margin-top: 24px;
+    font-family: 'Source Code Pro', monospace;
+font-family: 'Source Serif Pro', serif;
+
+}
+
+.buttons{
+    margin-top: 35px;
+}
+
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+
+}
+
+.devpic img{
+    height: 58vh;   
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 140px;
+    font-family: 'Source Code Pro', monospace;
+font-family: 'Source Serif Pro', serif;
+    margin: 10px 88px;
+}
+.contactform  h1{
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Source Serif Pro', serif;
+    padding: 13px 0;
+}
+.contactform form div{
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 25px;
+    margin: 4px 0;
+}
+.hobbyitem {
+    margin: 20px;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Source Serif Pro', serif;
+    
+}
+
+.hobbycontainer{
+    margin: 10px 88px;
+}
+h1{
+    font-family: 'EB Garamond', serif;
+    margin: 23px;
+}
+p{
+    
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.intro{
+    margin: 0 88px;
+}
+.intro h2{
+    font-family: 'EB Garamond', serif;
+    margin: 12px;
+
+}
+.intro p{
+
+    font-family: 'EB Garamond', serif;
+    margin: 12px;
+}
+.skillcontainer{
+    padding: 15px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-family: 'EB Garamond', serif;
+    font-weight: 900;
+
+}
+.skill{
+    width: 263px;
+    height: 7px;
+    color: blue;
+    border: 2px solid gray;
+}
+.hundred{
+    width: 265px;
+    background-color: blanchedalmond;
+}
+.fifty{
+    width: 125px;
+    background-color: beige;
+}
+.fortyfive{
+   width: 90px;
+   background-color: white;
+}
+.sidebargo{
+    
+        transform: translate(-445px,0px);
+        position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross{
+    margin: 170px; 
+    margin-top: 10px;
+
+}
+@media (max-width: 1615px){
+    *{
+  /*  background-color: rgb(235, 145, 145);*/
+     }.devpic{
+         display: none;
+     }
+    /* .sidebar{
+         transform: translate(-445px,0px);
+         position: absolute;
+     }*/
+ }
+
+
